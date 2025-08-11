@@ -3,3 +3,5 @@
 export(calc_null_effect)
 export(sr_histogram)
 export(sr_wrapper)
+import(data.table)
+import(ggplot2)

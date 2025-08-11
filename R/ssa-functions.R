@@ -1,5 +1,7 @@
 #' Function to obtain a crude sequence ratio from exposure and event times
 #' for each individual
+#' @import data.table
+#' @import ggplot2
 #' @export
 sr_wrapper <- function(id_expo, t_expo, id_event, t_event,
                        window_size = 365, blackout = 0, 
